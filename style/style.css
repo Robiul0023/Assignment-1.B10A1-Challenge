@@ -11,12 +11,58 @@
   font-style: normal;
 }
 
-
 body{
-   padding: 20px 30px;
+  padding: 20px 30px;
 }
 
+.web-title{
+  font-size: 24px;
+  font-weight: 700;
+  color:#0D1321B3;
+}
+
+.web-description{
+  font-size: 16px;
+  font-weight: 400;
+  color: #0D1321;
+}
+
+.web-development-container, .web-world-container, .web-coding-container{
+  width: 946px;
+  display: flex;
+  padding: 48px;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+  border-radius: 16px;
+  margin: 32px 0px;
+
+}
+
+.learn-more-btn-container{
+  margin-top: 32px;
+  margin-bottom: 10px;
+
+}
+
+.learn-more-btn{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  border: 1px solid rgb(13, 19, 33);
+  padding: 12px 20px 12px 20px;
+  margin: 0px 10px;
+  opacity: 0.7;
+  box-sizing: border-box;
+ 
+  
+}
+
+
+
 /*===== header styles===== */
+
 
 nav{
   display: flex;
@@ -39,21 +85,27 @@ nav{
   padding: 17px 24px 17px 24px;
   border-radius: 8px;
   opacity: 0.8;
+  box-sizing: border-box;
+
+}
+
+.hero{
+  /* width:1440px; */
+  background-image: url('../assets/Hero-bg.png');
 
 }
 
 .hero-container{
-  width: 1440px;
-  height: 652px;
-  background-image: url('../assets/Hero-bg.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  margin: 26px 221px 44px 221px;
 }
 
 .banner{
-  width: 998px;
-  height: 582px;
-  margin: 0 auto;
-  padding-bottom: 44px;
+ 
 }
 
 .banner-potrait{
@@ -75,16 +127,16 @@ nav{
    font-size: 16px;
    color:#0D1321;
    text-align: center;
+   opacity: 0.7;
+
 }
 
 
 .contact-btn{
     background-color: #0D1321;
     color: #FFFFFF;
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
-    line-height: 23px;
     margin: 32px 0px;
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
@@ -92,25 +144,20 @@ nav{
     
 }
 
-/*====== End header=== */
+/*====== End header====== */
 
 
-/*===== why web development styles==== */
+/*===== section why web development  styles==== */
 
 .why-web-development{
    margin-top: 74px;
    border-radius: 16px;
-  background: rgba(13, 19, 33, 0.02);
-  
-}
-
-.web-development-query{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+   background: rgba(13, 19, 33, 0.02);
    padding: 80px 97px 80px 97px;
+   opacity: 0.7;
 
 }
+
 
 .section-title{
   color: rgb(13, 19, 33);
@@ -127,4 +174,59 @@ nav{
   line-height: 26px;
   letter-spacing: 0%;
   text-align: center;
+  opacity: 0.7;
+
+}
+
+
+.web-development-container{
+  justify-content: center;
+  align-items: center;
+  gap:100px;
+ 
+}
+
+.web-development-coding{
+   width: 477px;
+}
+
+.coding-banner{
+  width: 275px;
+  height: 240px;
+}
+
+.coding-banner img{
+  width: 260px;
+  height: 217px;
+}
+
+
+.web-world-container{
+  gap:32px;
+  
+}
+
+
+.coding-potrait{
+   width:240px;
+   height:240px;
+}
+
+.coding-potrait img{
+   width: 223px;
+   height: 209px;
+}
+
+.web-world{
+   width:477px;
+}
+
+.web-coding-container{
+   justify-content: space-around;
+   gap: 133px;
+}
+
+.web-potrait{
+  width: 240px;
+  height: 240px;
 }
