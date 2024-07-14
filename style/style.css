@@ -37,6 +37,10 @@ body{
 
 }
 
+.web-development-coding, .web-world, .web-coding{
+   width: 477px;
+}
+
 .learn-more-btn-container{
   margin-top: 32px;
   margin-bottom: 10px;
@@ -59,6 +63,33 @@ body{
   
 }
 
+.text-center{
+  text-align: center;
+}
+
+a{
+  color: #0D1321;
+}
+
+.skills-links-container{
+   margin: 24px 0px;
+}
+
+.skills-link{
+   margin-left: 0px;
+   font-weight: 700;
+}
+
+.skills-html, .skills-css, .skills-js{
+  padding: 40px;
+  border-radius: 16px;
+ 
+}
+
+.next-skills-title{
+   margin: 8px 0px;
+   font-weight: 800;
+}
 
 
 /*===== header styles===== */
@@ -105,14 +136,13 @@ nav{
 }
 
 .banner{
- 
+   margin-top: 32px;
 }
 
 .banner-potrait{
    width: 240px;
    height: 240px;
    margin: 0 auto;
-   padding-bottom: 32px;
 }
 
 
@@ -187,7 +217,7 @@ nav{
 }
 
 .web-development-coding{
-   width: 477px;
+   margin: 0 10px;
 }
 
 .coding-banner{
@@ -218,7 +248,7 @@ nav{
 }
 
 .web-world{
-   width:477px;
+   margin: 0 32px;
 }
 
 .web-coding-container{
@@ -226,7 +256,148 @@ nav{
    gap: 133px;
 }
 
+.web-coding{
+   width: 447px;
+   width: 0px 10px;
+}
+
 .web-potrait{
   width: 240px;
   height: 240px;
+}
+
+
+/*====== section my inspiration styles==== */
+
+
+.my-inspiration{
+  margin: 88px  152px  0px 148px;
+  
+}
+
+.web-inspiration-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.inspiration-text{
+   margin-bottom: 24px;
+}
+
+
+.web-inspiration{
+   margin: 0 144px 48px 144px;
+   
+}
+
+.web-learning-motivation{
+   padding: 32px;
+   margin: 48px 0px;
+   box-sizing: border-box;
+   border: 1px solid rgba(13, 19, 33, 0.2);
+   border-radius: 16px;
+  color: #0D132133;
+
+}
+
+.YouTube-link{
+  margin: 10px 0px;
+  border-radius: 16px;
+
+}
+
+/*=======my current target section styles===*/
+
+.target-container{
+  margin: 151px 150px 49px 150px;
+}
+
+.my-current-target{
+  margin-bottom: 111px;
+}
+.my-current-target{
+  margin: 149px 150px 111px 150px;
+}
+
+.skills-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin: 0px 24px;
+}
+
+.skills-title{
+   text-align: left;
+}
+
+.skills-description{
+  text-align: left;
+}
+
+
+
+.skills-html{
+  background: rgba(255, 76, 30, 0.05);
+  
+}
+
+.skills-css{
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.skills-js{
+  background: rgba(255, 223, 0, 0.05);
+}
+
+/*=====next target section styles=== */
+
+
+.my-next-target{
+  background: rgb(255, 255, 255);
+  margin: 0px 150px;
+   
+}
+
+.next-target{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ .next-target-container{
+  background: rgb(255, 255, 255);
+} 
+
+.skills-react-container, .skills-node-container, .skills-mongoDb-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    border-radius: 16px;
+    gap:24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    margin: 
+
+
+   
+}
+
+.skills-react-container{
+   margin-top: 48px;
+}
+
+
+.skills-node-container{
+   margin-top: 24px;
+ 
+}
+
+.skills-mongoDb-container{
+   margin-top: 24px;
+   margin-bottom: 47px;
 }
